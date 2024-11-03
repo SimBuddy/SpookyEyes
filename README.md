@@ -2,8 +2,8 @@
 Spooky Eyes on two ESP32-TFT Displays.
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="ESPboard.png">
- <source media="(prefers-color-scheme: light)" srcset="ESPboard.png">
+ <source media="(prefers-color-scheme: dark)" srcset="eyes.png">
+ <source media="(prefers-color-scheme: light)" srcset="eyes.png">
  <img alt="ESP" src="ESP">
 </picture>
 

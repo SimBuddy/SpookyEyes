@@ -11,7 +11,7 @@ I chose two of these from Ali Express, based on the GC9A01 TFT.
  <img alt="ESP" src="ESP">
 </picture>
 
-In the Arduino IDE, go to Manage Librarioes, and install the following libraries:
+In the Arduino IDE, go to Manage Libraries, and install the following libraries:
 
 WiFiManager by tzapu
 TFT_eSPI by Bodmer
@@ -21,4 +21,4 @@ You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Set
 
 Compile and upload Clinet code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye.  WHen you switch on the client, it starts shouting instructions to the server, which obeys, and the two will sync.
 
-The code started life as a single piece of client server code, buty got spit eventually, so its a bit of a mess, but the 
+The code started life as a single piece of client server code, but got split eventually, so its a bit of a mess, but the basic are obvious, and allow for easy modifications and enhancements.

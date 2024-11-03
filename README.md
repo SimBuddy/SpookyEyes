@@ -14,12 +14,11 @@ I chose two of these from Ali Express, based on the GC9A01 TFT.
 In the Arduino IDE, go to Manage Libraries, and install the following libraries:
 
 
-WiFiManager by tzapu
+(1) WiFiManager by tzapu
 
-TFT_eSPI by Bodmer
+(2) TFT_eSPI by Bodmer
 
-ESP_NOW_Network by Your Name
-
+(3) ESP_NOW_Network by Your Name
 
 You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Setup.h", but uncommenting the line with  tha is //#define GC9A01_DRIVER  - take out the two slashes, then save.  If your display is not the one shown, you'll need to figure out what lines to edit instead.
 

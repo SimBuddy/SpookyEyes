@@ -1,5 +1,5 @@
 # SpookyEyes
-Spooky Eyes on two ESP32-TFT Displays
+Spooky Eyes on two ESP32-TFT Displays.
 
 This project will display eyes on two synced ESP LCD boards, so they will act as a pair, like eyes do.  The make a great spooky addittion to halloween.  They also look good in masks and under veils.  The code is for use with the Arduino/ESP32 development environment.
 

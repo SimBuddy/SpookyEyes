@@ -20,8 +20,14 @@ In the Arduino IDE, go to Manage Libraries, and install the following libraries:
 
 (3) ESP_NOW_Network by Your Name
 
-You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Setup.h", but uncommenting the line with  tha is //#define GC9A01_DRIVER  - take out the two slashes, then save.  If your display is not the one shown, you'll need to figure out what lines to edit instead.
+You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Setup.h", by:
 
-Compile and upload Clinet code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye.  WHen you switch on the client, it starts shouting instructions to the server, which obeys, and the two will sync.
+(1) Uncommenting the line with  tha is //#define GC9A01_DRIVER  - take out the two slashes.  If your display is not the one shown, you'll need to figure out what lines to edit instead.
+
+(2) Further down the file, look for your a line saying :"###### EDIT THE PIN NUMBERS IN THE LINES FOLLOWING TO SUIT YOUR ESP32 SETUP   ######"
+
+(3) In that section you'll see your display listed below.  Uncomment the relevant 6 or 7 lines for your display.
+
+Compile and upload Clinet code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye.  When you switch on the client, it starts shouting instructions to the server, which obeys, and the two will sync.
 
 The code started life as a single piece of client server code, but got split eventually, so its a bit of a mess, but the basic are obvious, and allow for easy modifications and enhancements.

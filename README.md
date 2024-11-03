@@ -28,6 +28,6 @@ You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Set
 
 (3) In that section you'll see your display listed below.  Uncomment the relevant 6 or 7 lines for your display.
 
-Compile and upload Clinet code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye.  When you switch on the client, it starts shouting instructions to the server, which obeys, and the two will sync.
+Compile and upload client code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye, listening for instructions.  When you switch on the client, it will start shouting instructions to the server, which obeys, and the two should sync.  This is dnoe using the ESP-NOW protocol.
 
 The code started life as a single piece of client server code, but got split eventually, so its a bit of a mess, but the basic are obvious, and allow for easy modifications and enhancements.

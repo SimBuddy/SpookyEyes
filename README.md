@@ -28,7 +28,7 @@ In the Arduino IDE, go to Manage Libraries, and install the following libraries:
 
 You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Setup.h", by:
 
-(1) Uncommenting the line that says: //#define GC9A01_DRIVER  - take out the two slashes.  If your display is not the one shown, you'll need to figure out what lines to edit instead.
+(1) Uncommenting the line that says: //#define GC9A01_DRIVER  - take out the two slashes.  If your display is not the one pictured above, you'll need to figure out what lines to edit instead.
 
 (2) Further down the file, look for your a line saying :"###### EDIT THE PIN NUMBERS IN THE LINES FOLLOWING TO SUIT YOUR ESP32 SETUP   ######"
 

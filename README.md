@@ -47,7 +47,7 @@ Use these working pinouts ONLY for the display device shown above - other device
  #define TFT_BL   32  // LED back-light
 
 
-(3) I have added a working user_setup.h file which will ONLY work on the LCD displa device shown above.
+(3) **I have added a working user_setup.h file which will ONLY work on the LCD displa device shown above.**
 
 RESTART THE ARDUINO IDE TO ENABLE CHANGES.
 

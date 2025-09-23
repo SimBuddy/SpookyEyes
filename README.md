@@ -30,9 +30,18 @@ You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Set
 
 (1) Uncommenting the line that says: //#define GC9A01_DRIVER  - take out the two slashes.  If your display is not the one pictured above, you'll need to figure out what lines to edit instead.
 
-(2) Further down the file, look for your a line saying :"###### EDIT THE PIN NUMBERS IN THE LINES FOLLOWING TO SUIT YOUR ESP32 SETUP   ######"
+(2) Further down the file, look for your a line saying :"###### EDIT THE PIN NUMBERS IN THE LINES FOLLOWING TO SUIT YOUR ESP32 SETUP   ######" - edit the pin numbers in the file, as below.
 
-(3) In that section you'll see your display listed below.  Uncomment the relevant 6 or 7 lines for your display.
+Use these working pinouts ONLY for the display device shown above - other devices will have differing pinouts:
+
+#define TFT_MOSI 15 // In some display driver board, it might be written as "SDA" and so on.
+#define TFT_SCLK 14
+#define TFT_CS   5  // Chip select control pin
+#define TFT_DC   27  // Data Command control pin
+#define TFT_RST  33  // Reset pin (could connect to Arduino RESET pin)
+#define TFT_BL   32  // LED back-light
+
+(3) I have added a working user_setup.h file which will ONLY work on the LCD displa device shown above.
 
 Compile and upload client code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye, listening for instructions.  When you switch on the client, it will start shouting instructions to the server, which obeys, and the two should sync.  This is dnoe using the ESP-NOW protocol.
 

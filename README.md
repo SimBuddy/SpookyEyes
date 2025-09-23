@@ -34,12 +34,18 @@ You'll need to edit "C:\Users\User\Documents\Arduino\libraries\TFT_eSPI\User_Set
 
 Use these working pinouts ONLY for the display device shown above - other devices will have differing pinouts:
 
-#define TFT_MOSI 15 // In some display driver board, it might be written as "SDA" and so on.
-#define TFT_SCLK 14
-#define TFT_CS   5  // Chip select control pin
-#define TFT_DC   27  // Data Command control pin
-#define TFT_RST  33  // Reset pin (could connect to Arduino RESET pin)
-#define TFT_BL   32  // LED back-light
+ #define TFT_MOSI 15 // In some display driver board, it might be written as "SDA" and so on.
+
+ #define TFT_SCLK 14
+
+ #define TFT_CS   5  // Chip select control pin
+
+ #define TFT_DC   27  // Data Command control pin
+
+ #define TFT_RST  33  // Reset pin (could connect to Arduino RESET pin)
+
+ #define TFT_BL   32  // LED back-light
+
 
 (3) I have added a working user_setup.h file which will ONLY work on the LCD displa device shown above.
 

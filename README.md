@@ -43,6 +43,8 @@ Use these working pinouts ONLY for the display device shown above - other device
 
 (3) I have added a working user_setup.h file which will ONLY work on the LCD displa device shown above.
 
+RESTART THE ARDUION IDE TO ENABLE CHANGES.
+
 Compile and upload client code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye, listening for instructions.  When you switch on the client, it will start shouting instructions to the server, which obeys, and the two should sync.  This is dnoe using the ESP-NOW protocol.
 
 The code started life as a single piece of client server code, but got split eventually, so its a bit of a mess, but the basics are obvious, and allow for easy modifications and enhancements.

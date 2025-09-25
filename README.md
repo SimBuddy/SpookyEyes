@@ -17,6 +17,8 @@ I chose two of these from Ali Express, based on the GC9A01 TFT.
  <img alt="ESP" src="ESP">
 </picture>
 
+These are "ESP32 DEV" boards, so choose that when selecting a board in the IDE.
+
 In the Arduino IDE, go to Manage Libraries, and install the following libraries:
 
 

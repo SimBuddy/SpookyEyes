@@ -51,7 +51,7 @@ Use these working pinouts ONLY for the display device shown above - other device
 
 (3) **I have added a working user_setup.h file which will ONLY work on the LCD display device shown above. You can use that as oppsed to editing as above.**
 
-Ensure you have enabled PSRAM if using the board above - do this in the Arduin IDE.
+Ensure you have enabled PSRAM if using the board above - do this in the Arduino IDE.
 
 RESTART THE ARDUINO IDE TO ENABLE CHANGES.
 

@@ -55,6 +55,7 @@ Ensure you have enabled PSRAM if using the board above - do this in the Arduin I
 
 RESTART THE ARDUINO IDE TO ENABLE CHANGES.
 
-Compile and upload client code to one unit, then server code to the other.  It's best to turn on the server one first.  It should just sit there showing a blue eye, listening for instructions.  When you switch on the client, it will start shouting instructions to the server, which obeys, and the two should sync.  This is dnoe using the ESP-NOW protocol.
+How it works:
 
-The code started life as a single piece of client server code, but got split eventually, so its a bit of a mess, but the basics are obvious, and allow for easy modifications and enhancements.
+When you power on the device, it will remember its last role setting - LEADER or FOLLOWER. Leaders send their movements, followers listen and do the same movements.
+One of the buttons on the device will change roles, from leader to follower or vice versa.  You need one of each. It's simplest to power on the follower first.

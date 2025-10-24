@@ -60,3 +60,5 @@ How it works:
 The code above should be loaded onto both devices.
 When you power on the device, it will remember its last role setting - LEADER or FOLLOWER. Leaders send their movements, followers listen and do the same movements.
 One of the buttons on the device will change roles, from leader to follower or vice versa.  You need one of each. It's simplest to power on the follower first.
+
+The software uses ESP-NOW to send data.  It's a proprietary protocol, but very easy to code for.  I used simple broadcasting to avoid the need to know MAC addresses.
